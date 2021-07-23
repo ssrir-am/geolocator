@@ -18,7 +18,7 @@ function handleConfirm(e) {
     .then(responseJson => {
       console.log(responseJson);
       document.getElementById('confirm').innerHTML =
-        '<p class="lead">We have your location and are putting you through to an agent, please return to the call on your phone!</p>';
+        '<p class="lead">Thanks. We have your location, please return to the TMHub App chat screen on your phone!</p>';
     });
 }
 
